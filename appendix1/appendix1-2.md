@@ -3,7 +3,7 @@
 QGIS Windows版は以下のサイトからインストーラーをダウンロードしてから実行します。QGISを単体でインストールしたい場合は上段のサイトから、お使いのwindowsのバージョンに対応したものを選択してダウンロードしてください。QGIS公式サイト内からネットワークインストーラー、もしくはOSGeo4Wページからインストール作業を行う場合は、特段の事情がない限りデスクトップ エクスプレス インストールを推奨します。
 
 http://www.qgis.org/ja/site/forusers/download.html
-<img src="../img/appendix1-2-2.png">
+<img src="img/appendix1-2-2.png">
 
 http://trac.osgeo.org/osgeo4w/wiki/OSGeo4W_jp
 <img src="../img/appendix1-2-1.png">
