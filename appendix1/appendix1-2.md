@@ -6,32 +6,32 @@ http://www.qgis.org/ja/site/forusers/download.html
 <img src="img/appendix1-2-2.png">
 
 http://trac.osgeo.org/osgeo4w/wiki/OSGeo4W_jp
-<img src="../img/appendix1-2-1.png">
+<img src="img/appendix1-2-1.png">
 
 今回は、QGIS Standalone Installerを使用したインストールを紹介します。
 
 インストーラーをダウンロードすると、QGISロゴのアイコンで象徴される実行ファイルが表示されるかと思います。
-<img src="../img/installer.png">
+<img src="img/installer.png">
 
 このファイルを実行してください。
 
-<img src="../img/appendix1-2-3.png">
+<img src="img/appendix1-2-3.png">
 
 セットアップウィザードが開いたら、次へをクリックしてください。
 
-<img src="../img/appendix1-2-4.png">
+<img src="img/appendix1-2-4.png">
 
 契約書の全ての条件に同意するならば、同意するをクリックしてください。
 
-<img src="../img/appendix1-2-5.png">
+<img src="img/appendix1-2-5.png">
 
 インストール先のフォルダを参照します。今回はデフォルトのままインストールを行います。デフォルトの場合はCドライブのProgram Files直下に、QGIS Valmeriaを作成してインストールします。インストール先のディレクトリを確認してから、次へをクリックしてください。
 
-<img src="../img/appendix1-2-6.png">
+<img src="img/appendix1-2-6.png">
 
 今回はインストールコンポーネントの取得を行う必要はありません。コンポーネントにチェックが入っていないことを確認してからインストールをクリックしてください。
 
-<img src="../img/appendix1-2-7.png">
+<img src="img/appendix1-2-7.png">
 
 セットアップウィザードは完了しましたと表示されれば、セットアップは完了しています。デスクトップにショートカットランチャーが作成されていることを確認し、起動してください。
  
