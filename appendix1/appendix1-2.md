@@ -11,7 +11,7 @@ http://trac.osgeo.org/osgeo4w/wiki/OSGeo4W_jp
 今回は、QGIS Standalone Installerを使用したインストールを紹介します。
 
 インストーラーをダウンロードすると、QGISロゴのアイコンで象徴される実行ファイルが表示されるかと思います。
-<img src="img/installer.png">
+<div align="left"><img src="img/installer.png"></div>
 
 このファイルを実行してください。
 
