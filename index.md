@@ -52,7 +52,7 @@
  * iii. パブリックドメイン
  * (Column) 測量成果の複製・使用
 
-## 3. 基本となる地図を準備する
+## 3. [基本となる地図を準備する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-1.md)
 
 ### a. 身近な地図を作成する #基盤地図情報を利用するイメージ
 
@@ -144,11 +144,11 @@
 
 ## Appendix Ⅰ: QGIS操作ガイド
 
- * a. QGISとは？
- * b. インストール
+ * a. [QGISとは？](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-1.md)
+ * b. [インストール](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-2.md)
   * i. Windows
   * ii. Mac
- * c. プロジェクトを開く/保存する
+ * c. [プロジェクトを開く/保存する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-3.md)
  * d. 測地系・投影法を設定する
  * e. プラグインを設定する
  * f. 新規レイヤを作成する
