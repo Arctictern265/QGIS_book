@@ -1,22 +1,22 @@
 ﻿#地図情報のオープンデータ可視化［実践］入門
 
-## 1. 地理空間情報とオープンデータの概要
+## 1. 地理空間情報とオープンデータの概要 https://github.com/Arctictern265/QGIS_book/blob/master/1/1.md
 
 ###  a. 地理空間情報とは
- * i. 身近な地理空間情報
- * ii. 情報は位置に結びつく
- * iii. 位置の表現の仕方
- * (Column) 同じ経度緯度でも位置が違う？-測地系の違い
- * iv. さまざまな投影法
- * (Column) 空間参照系
- * v. 住所から位置を求める
- * vi. 可視化することで理解が進む
+ * i. 身近な地理空間情報 https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-1.md
+ * ii. 情報は位置に結びつく https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-2.md
+ * iii. 位置の表現の仕方 https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-3.md
+ * (Column) 同じ経度緯度でも位置が違う？-測地系の違い https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-column1.md
+ * iv. さまざまな投影法 https://github.com/Arctictern265/QGIS_book/commit/4e017c3a18745f0066f48dd90a84d824636606d8
+ * (Column) 空間参照系 https://github.com/Arctictern265/QGIS_book/commit/12713251451820375fe8ae656035ecea8ff9d857
+ * v. 住所から位置を求める https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-5.md
+ * vi. 可視化することで理解が進む https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-6.md
 
 ### b. オープンデータとは
 
- * i. オープンデータの定義
- * (Column) ライセンスを理解しよう
- * ii. オープンデータを巡る動き
+ * i. オープンデータの定義 https://github.com/Arctictern265/QGIS_book/blob/master/1/1-2-1.md
+ * (Column) ライセンスを理解しよう https://github.com/Arctictern265/QGIS_book/blob/master/1/1-2-column1.md
+ * ii. オープンデータを巡る動き https://github.com/Arctictern265/QGIS_book/blob/master/1/1-2-2.md
  * iii. 公共のデータだけがオープンデータ？
 
 ### c. いまなぜ注目されているのか
