@@ -149,7 +149,7 @@
   * i. Windows
   * ii. Mac
  * c. [プロジェクトを開く/保存する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-3.md)
- * d. 測地系・投影法を設定する
+ * d. [測地系・投影法を設定する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-4.md)
  * e. プラグインを設定する
  * f. 新規レイヤを作成する
  * g. ファイルをレイヤに追加する
