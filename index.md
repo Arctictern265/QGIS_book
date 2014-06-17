@@ -21,7 +21,7 @@
 
 ### c. いまなぜ注目されているのか
 
- * i. 測位技術の充実
+ * i. [測位技術の充実](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-1.md)
  * (Column) GPSの仕組み
  * ii. オープンソースソフトウェアの充実
  * iii. (Column) OSGeo財団
@@ -150,7 +150,7 @@
   * ii. Mac
  * c. [プロジェクトを開く/保存する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-3.md)
  * d. [測地系・投影法を設定する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-4.md)
- * e. プラグインを設定する
+ * e. [プラグインを設定する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-5.md)
  * f. 新規レイヤを作成する
  * g. ファイルをレイヤに追加する
  * h. レイヤにスタイルを設定する
