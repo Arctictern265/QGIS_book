@@ -26,11 +26,11 @@
  * ii. [オープンソースソフトウェアの充実](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-2.md)
  * (Column) [OSGeo財団](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-column2.md)
 
-## 2. データを準備する
+## 2. [データを準備する](https://github.com/Arctictern265/QGIS_book/blob/master/2/2.md)
 
 ### a. オープンデータを使う
 
- * i. データを探す #巻末のカタログへの誘導
+ * i. [データを探す](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-1-1.md) #巻末のカタログへの誘導
  * ii. カタログサイトの利用 #data.go.jpの紹介？
 
 ### b. 代表的なフォーマット
@@ -152,7 +152,7 @@
  * d. [測地系・投影法を設定する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-4.md)
  * e. [プラグインを設定する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-5.md)
  * f. 新規レイヤを作成する
- * g. ファイルをレイヤに追加する
+ * g. [ファイルをレイヤに追加する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-7.md)
  * h. レイヤにスタイルを設定する
  * i. レイヤを編集する
  * j. レイヤを保存する
