@@ -31,7 +31,7 @@
 ### a. オープンデータを使う
 
  * i. [データを探す](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-1-1.md) #巻末のカタログへの誘導
- * ii. カタログサイトの利用 #data.go.jpの紹介？
+ * ii. [カタログサイトの利用](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-1-2.md) #data.go.jpの紹介？
 
 ### b. 代表的なフォーマット
 
