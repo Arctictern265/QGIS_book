@@ -1,4 +1,4 @@
-#地図情報のオープンデータ可視化［実践］入門
+﻿#地図情報のオープンデータ可視化［実践］入門
 
 ## 1. [地理空間情報とオープンデータの概要](https://github.com/Arctictern265/QGIS_book/blob/master/1/1.md)
 
@@ -25,6 +25,7 @@
  * (Column) [GPSの仕組み](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-column1.md)
  * ii. [オープンソースソフトウェアの充実](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-2.md)
  * (Column) [OSGeo財団](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-column2.md)
+ * iii. [活用に不可欠な情報](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-3.md)
 
 ## 2. [データを準備する](https://github.com/Arctictern265/QGIS_book/blob/master/2/2.md)
 
