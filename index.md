@@ -1,4 +1,4 @@
-﻿#地図情報のオープンデータ可視化［実践］入門
+#地図情報のオープンデータ可視化［実践］入門
 
 ## 1. [地理空間情報とオープンデータの概要](https://github.com/Arctictern265/QGIS_book/blob/master/1/1.md)
 
@@ -36,9 +36,9 @@
 
 ### b. 代表的なフォーマット
 
- * i. csv
- * ii. xml
- * iii. ESRI Shapefile
+ * i. [csv](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-1.md)
+ * ii. [xml](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-2.md)
+ * iii. [ESRI Shapefile](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-3.md)
  * iv. GeoJSON
  * v. KML
  * vi. 位置情報付きの画像
@@ -154,8 +154,8 @@
  * e. [プラグインを設定する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-5.md)
  * f. 新規レイヤを作成する
  * g. [ファイルをレイヤに追加する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-7.md)
- * h. レイヤにスタイルを設定する
- * i. レイヤを編集する
+ * h. [レイヤにスタイルを設定する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-8.md)
+ * i. [レイヤを編集する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-9.md)
  * j. レイヤを保存する
  * k. ベクタ演算例
  * l. ラスタ演算例
