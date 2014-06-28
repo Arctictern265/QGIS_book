@@ -40,9 +40,9 @@
  * ii. [xml](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-2.md)
  * iii. [ESRI Shapefile](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-3.md)
  * iv. GeoJSON
- * v. KML
+ * v. [KML](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-5.md)
  * vi. 位置情報付きの画像
- * vii. 標高値データもしくはグリッドデータ
+ * vii. [標高値データもしくはグリッドデータ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-7.md)
  * viii. 配信地図(オープンストリートマップ、地理院地図)
  * (Column) タイル地図
 
@@ -157,7 +157,7 @@
  * h. [レイヤにスタイルを設定する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-8.md)
  * i. [レイヤを編集する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-9.md)
  * j. レイヤを保存する
- * k. ベクタ演算例
+ * k. [ベクタ演算例](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-11.md)
  * l. ラスタ演算例
  * m. 印刷する
 
