@@ -7,12 +7,15 @@ def strip_bom(s):
 
 
 fr = open("list.md","r")
-with open("all.md",'w'):
- pass
+with open("all.md",'w') as fw:
+   fw.write("https://gitprint.com/Arctictern265/QGIS_book/blob/master/all.md\n")
+   fw.write("<div style='page-break-after: always;'></div>\n\n")
 fw = open("all.md",'a')
 for line in fr:
    path = line.rstrip("\n")
-   dir = path.split("/")[0] 
+   dir = path.split("/")[0]
+   if(path == "--"):
+      fw.write("<div style='page-break-after: always;'></div>\n\n") 
    try:
       f = open(path,"r")
       data = strip_bom(f.read()).replace("img/",dir + "/img/")
