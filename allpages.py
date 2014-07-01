@@ -12,7 +12,7 @@ with open("all.md",'w'):
 fw = open("all.md",'a')
 for line in fr:
    path = line.rstrip("\n")
-   dir = path.strip("/")[0] 
+   dir = path.split("/")[0] 
    try:
       f = open(path,"r")
       data = strip_bom(f.read()).replace("img/",dir + "/img/")
