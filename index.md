@@ -48,8 +48,8 @@
 
 ### c. ライセンス
 
- * i. 見ておくべきところ
- * ii. クリエイティブ・コモンズ
+ * i. [見ておくべきところ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-3-1.md)
+ * ii. [クリエイティブ・コモンズ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-3-2.md)
  * iii. パブリックドメイン
  * (Column) 測量成果の複製・使用
 
@@ -159,7 +159,7 @@
  * j. レイヤを保存する
  * k. [ベクタ演算例](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-11.md)
  * l. ラスタ演算例
- * m. 印刷する
+ * m. [印刷する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-13.md)
 
 ## Appendix Ⅱ:データカタログ #表でざっと載せる
 
