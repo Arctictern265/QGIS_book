@@ -29,7 +29,7 @@ for line in fr:
       fw.write(data+"\n\n")
       data = re.sub(r'\!\[.*\]\((.*)\)',r'図:\1',data)
       data = re.sub(r'<img src=\"(.*)\">',r'図:\1',data)
-      fwt.write(data2+"\n\n")
+      fwt.write(data+"\n\n")
       f.close()
    except:
       pass
