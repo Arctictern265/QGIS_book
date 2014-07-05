@@ -161,7 +161,7 @@
  * l. ラスタ演算例
  * m. [印刷する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-13.md)
 
-## Appendix Ⅱ:データカタログ #表でざっと載せる
+## Appendix Ⅱ:データカタログ（山手） #表でざっと載せる
 
 ### a. 国の機関から入手できる情報
  * i. 基盤地図情報
