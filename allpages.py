@@ -27,8 +27,8 @@ for line in fr:
       f = open(path,"r")
       data = strip_bom(f.read()).replace("img/",dir + "/img/")
       fw.write(data+"\n\n")
-      data = re.sub(r'\!\[.*\]\((.*)\)',r'図:\1',data)
-      data = re.sub(r'<img src=\"(.*)\">',r'図:\1',data)
+      data = re.sub(r'\!\[.*\]\((.*)\)',r'図:[\1](\1)',data)
+      data = re.sub(r'<img src=\"(.*)\">',r'図:[\1](\1)',data)
       fwt.write(data+"\n\n")
       f.close()
    except:
