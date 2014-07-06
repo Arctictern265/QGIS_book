@@ -41,7 +41,7 @@
  * i. [csv](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-1.md)
  * ii. [xml](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-2.md)
  * iii. [ESRI Shapefile](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-3.md)
- * iv. GeoJSON
+ * iv. [GeoJSON](https://github.com/Arctictern265/QGIS_book/commit/7b835152ae4e23851d5c02f988e96ac676044876)
  * v. [KML](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-5.md)
  * vi. [位置情報付きの画像](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-6.md)
  * vii. [標高値データもしくはグリッドデータ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-7.md)
