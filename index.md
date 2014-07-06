@@ -87,8 +87,8 @@
  * [i. データをダウンロードする #国土数値情報から防災系のデータ](https://github.com/Arctictern265/QGIS_book/blob/07ba2a9f4bf058fdab9b9e424595b47c00273daa/4/4-a-1.md)
  * [ii. 点要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/07ba2a9f4bf058fdab9b9e424595b47c00273daa/4/4-a-1.md)
  * [iii. 線要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/07ba2a9f4bf058fdab9b9e424595b47c00273daa/4/4-a-1.md)
- * iv. 面要素のスタイル
- * v. 保存する
+ * [iv. 面要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/07ba2a9f4bf058fdab9b9e424595b47c00273daa/4/4-a-1.md)
+ * [v. 保存する](https://github.com/Arctictern265/QGIS_book/blob/07ba2a9f4bf058fdab9b9e424595b47c00273daa/4/4-a-1.md)
 
 ### b. 年齢別人口分布図を作成する（朝日さん）
 
