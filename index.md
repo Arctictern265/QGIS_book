@@ -1,4 +1,4 @@
-﻿#地図情報のオープンデータ可視化［実践］入門
+#地図情報のオープンデータ可視化［実践］入門
 
 ## 全ページ
 
@@ -53,7 +53,7 @@
  * i. [見ておくべきところ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-3-1.md)
  * ii. [クリエイティブ・コモンズ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-3-2.md)
  * iii. パブリックドメイン
- * (Column) 測量成果の複製・使用
+ * (Column) [測量成果の複製・使用](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-3-column1.md)
 
 ## 3. [基本となる地図を準備する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-1.md)
 
@@ -100,7 +100,7 @@
  * vi. 保存する
  * (Column) 地域メッシュコードとは？ - 2050年の人口予想図を作成する
 
-### c. 山岳表現を作成する（水谷さん）
+### c. [山岳表現を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-3.md)
 
  * i. データをダウンロードする
   * i. 日本の範囲内の場合 #基盤地図情報から数値標高モデル
@@ -113,7 +113,7 @@
  * vi. 保存する
  * (Column) 標高タイル
 
-### d. その他様々な可視化例（水谷さん）
+### d. [その他様々な可視化例](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-4.md)
 
  * i. 保育所が必要な場所を可視化する
  * ii. 植生データを可視化する
