@@ -45,7 +45,7 @@
  * v. [KML](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-5.md)
  * vi. [位置情報付きの画像](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-6.md)
  * vii. [標高値データもしくはグリッドデータ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-7.md)
- * viii. 配信地図(オープンストリートマップ、地理院地図)
+ * viii. [配信地図(オープンストリートマップ、地理院地図)](https://github.com/Arctictern265/QGIS_book/blob/e254f7e22374ac8fd3a1921903447b1756fdef33/2/2-2-8.md)
  * (Column) [タイル地図](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-column1.md)
 
 ### c. ライセンス
