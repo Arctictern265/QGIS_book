@@ -66,7 +66,7 @@
  * v. レイヤ毎にスタイルを設定
  * vi. 保存しておく
 
-### b. もう少し広い範囲を準備する #地理院地図、もしくはオープンストリートマップを利用するイメージ（大友さん）
+### b. [もう少し広い範囲を準備する #地理院地図、もしくはオープンストリートマップを利用するイメージ（大友さん）](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
 
  * i. [プラグインを使用する](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
  * ii. [オープンストリートマップを表示する](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
