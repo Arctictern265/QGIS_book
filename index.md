@@ -68,10 +68,10 @@
 
 ### b. もう少し広い範囲を準備する #地理院地図、もしくはオープンストリートマップを利用するイメージ（大友さん）
 
- * i. プラグインを使用する
- * ii. オープンストリートマップを表示する
- * iii. 地理院地図を表示する
- * iv. 保存しておく
+ * i. [プラグインを使用する](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
+ * ii. [オープンストリートマップを表示する](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
+ * iii. [地理院地図を表示する](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
+ * iv. [保存しておく](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
 
 ### c. 世界地図を作成する（山手） #Natural Earthを利用するイメージ
 
