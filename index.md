@@ -1,4 +1,4 @@
-#地図情報のオープンデータ可視化［実践］入門
+﻿#地図情報のオープンデータ可視化［実践］入門
 
 ## 全ページ
 
@@ -55,9 +55,10 @@
  * iii. パブリックドメイン
  * (Column) [測量成果の複製・使用](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-3-column1.md)
 
-## 3. [基本となる地図を準備する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-1.md)
+## 3. [基本となる地図を準備する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3.md)
 
-### a. 身近な地図を作成する（朝日さん） #基盤地図情報を利用するイメージ
+### a. [身近な地図を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-1.md)
+
 
  * i. 使用にあたり確認すべき項目
  * ii. データをダウンロードする
@@ -80,15 +81,15 @@
  * iii. レイヤ毎にスタイルを設定
  * iv. 保存しておく
 
-## 4. テーマを決めてデータを可視化する
+## 4. [テーマを決めてデータを可視化する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4.md)
 
-### a. [防災地図を作成する（大友さん）](https://github.com/Arctictern265/QGIS_book/blob/07ba2a9f4bf058fdab9b9e424595b47c00273daa/4/4-a-1.md)
+### a. [防災地図を作成する（大友さん）](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
 
- * [i. データをダウンロードする #国土数値情報から防災系のデータ](https://github.com/Arctictern265/QGIS_book/blob/07ba2a9f4bf058fdab9b9e424595b47c00273daa/4/4-a-1.md)
- * [ii. 点要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/07ba2a9f4bf058fdab9b9e424595b47c00273daa/4/4-a-1.md)
- * [iii. 線要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/07ba2a9f4bf058fdab9b9e424595b47c00273daa/4/4-a-1.md)
- * [iv. 面要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/07ba2a9f4bf058fdab9b9e424595b47c00273daa/4/4-a-1.md)
- * [v. 保存する](https://github.com/Arctictern265/QGIS_book/blob/07ba2a9f4bf058fdab9b9e424595b47c00273daa/4/4-a-1.md)
+ * [i. データをダウンロードする #国土数値情報から防災系のデータ](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
+ * [ii. 点要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
+ * [iii. 線要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
+ * [iv. 面要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
+ * [v. 保存する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
 
 ### b. 年齢別人口分布図を作成する（朝日さん）
 
