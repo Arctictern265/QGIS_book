@@ -33,19 +33,19 @@
 
 ### a. オープンデータを使う
 
- * i. [データを探す](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-1-1.md) #巻末のカタログへの誘導
- * ii. [カタログサイトの利用](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-1-2.md) #data.go.jpの紹介？
+ * i. [データを探す](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-1-1.md)
+ * ii. [カタログサイトの利用](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-1-2.md)
 
 ### b. 代表的なフォーマット
 
  * i. [csv](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-1.md)
  * ii. [xml](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-2.md)
  * iii. [ESRI Shapefile](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-3.md)
- * iv. [GeoJSON](https://github.com/Arctictern265/QGIS_book/blob/7b835152ae4e23851d5c02f988e96ac676044876/2/2-2-4.md)
+ * iv. [GeoJSON](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-4.md)
  * v. [KML](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-5.md)
  * vi. [位置情報付きの画像](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-6.md)
  * vii. [標高値データもしくはグリッドデータ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-7.md)
- * viii. [配信地図(オープンストリートマップ、地理院地図)](https://github.com/Arctictern265/QGIS_book/blob/e254f7e22374ac8fd3a1921903447b1756fdef33/2/2-2-8.md)
+ * viii. [配信地図(オープンストリートマップ、地理院地図)](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-8.md)
  * (Column) [タイル地図](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-column1.md)
 
 ### c. ライセンス
@@ -67,12 +67,12 @@
  * v. レイヤ毎にスタイルを設定
  * vi. 保存しておく
 
-### b. [もう少し広い範囲を準備する #地理院地図、もしくはオープンストリートマップを利用するイメージ（大友さん）](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
+### b. [もう少し広い範囲を準備する #地理院地図、もしくはオープンストリートマップを利用するイメージ（大友さん）](https://github.com/Arctictern265/QGIS_book/master/3/3-2.md)
 
- * i. [プラグインを使用する](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
- * ii. [オープンストリートマップを表示する](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
- * iii. [地理院地図を表示する](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
- * iv. [保存しておく](https://github.com/Arctictern265/QGIS_book/blob/f4d87bc52fea738dde972bf978e968d2ea30ae20/3/3-2.md)
+ * i. [プラグインを使用する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
+ * ii. [オープンストリートマップを表示する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
+ * iii. [地理院地図を表示する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
+ * iv. [保存しておく](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
 
 ### c. 世界地図を作成する（山手） #Natural Earthを利用するイメージ
 
@@ -91,9 +91,9 @@
  * [iv. 面要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
  * [v. 保存する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
 
-### b. 年齢別人口分布図を作成する（朝日さん）
+### b. [年齢別人口分布図を作成する（朝日さん）](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-2.md)
 
- * i. データをダウンロードする #e-statから国勢調査データ
+ * i. データをダウンロードする
  * ii. ファイルを開く
  * iii. 小地域データに統計データを結びつける
  * iv. 人口により色分け
