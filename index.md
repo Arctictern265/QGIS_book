@@ -140,13 +140,13 @@
 
 ### b. Webで公開する（大友さん）
 
- * i. 利用されやすい公開方法
-  * i. 利用者を想定する
-  * ii. ライセンスを決定する
-  * iii. フォーマットを決定する
- * ii. 画像データで公開する
+ * i. [利用されやすい公開方法(github pagesを用いることにした)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
+  * i. [利用者を想定する(->githubアカウントの作成方法へ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
+  * ii. [ライセンスを決定する(->githubリポジトリのクローンを行うへ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
+  * iii. [フォーマットを決定する(->githubを利用した作業へ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
+ * ii. [画像データで公開する(->githubにpushするに変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
  * (Column) 画像に位置を結ぶつける - ジオリファレンス
- * iii. ベクトルデータで公開する
+ * iii. [ベクトルデータで公開する(->github pagesようにリポジトリをeditするへ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
  * (Column) WMS/WFS
  * (Column) Mapbox
 
