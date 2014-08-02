@@ -68,4 +68,10 @@ PySALは、ソースファイルをダウンロードし、展開した後、タ
 sudo python setup.py install
 ```
 
-すべてのファイルがインストールできたら、アプリケーションからQGISを起動します。上手く起動できたら完了です。
+すべてのファイルがインストールできたら、最後にGDALのコマンドへパスを通すために~/.bash_profileに以下の行を追加しておきます。
+
+```
+export PATH=/Library/Frameworks/GDAL.framework/Programs:$PATH
+```
+
+アプリケーションからQGISが起動できたら完了です。
