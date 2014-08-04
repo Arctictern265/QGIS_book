@@ -27,7 +27,7 @@
  * (Column) [GPSの仕組み](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-column1.md)
  * ii. [オープンソースソフトウェアの充実](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-2.md)
  * (Column) [OSGeo財団](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-column2.md)
- * iii. [活用に不可欠な情報](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-3.md)
+ * iii. [位置情報利用への期待と課題](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-3.md)
 
 ## 2. [データを準備する](https://github.com/Arctictern265/QGIS_book/blob/master/2/2.md)
 

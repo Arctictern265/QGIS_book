@@ -1,0 +1,5 @@
+1/img/1-1-3-1.jpg : イメージ図(http://www.geod.jpn.org/web-text/part2/2-1/2-1_figures/Fig5.jpg)を参照し、書き直したい
+1/img/1-1-3-2.jpg : イメージ図(だけどちょっと違う 参照：http://www.jmc.or.jp/image/faq/m10.jpg)を参照し、地球楕円面が、平面上に投影される絵にしたい
+1/img/1-1-column1-1.png : 他の図と合わせて統一したイメージにしたい
+1/img/1-1-column1-2.png : 他の図と合わせて統一したイメージにしたい
+1/img/1-1-column1-3.png : 他の図と合わせて統一したイメージにしたい
