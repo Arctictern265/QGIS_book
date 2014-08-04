@@ -3,3 +3,4 @@
 1/img/1-1-column1-1.png : 他の図と合わせて統一したイメージにしたい
 1/img/1-1-column1-2.png : 他の図と合わせて統一したイメージにしたい
 1/img/1-1-column1-3.png : 他の図と合わせて統一したイメージにしたい
+2章タイル地図 : http://portal.cyberjapan.jp/help/image/tileNum.pngを参考に画像を作り替えたい
