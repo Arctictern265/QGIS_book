@@ -17,6 +17,7 @@
 ### b. オープンデータとは
 
  * i. [オープンデータの定義](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-2-1.md)
+ * (Column) [5スターオープンデータ](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-2-column2.md)
  * (Column) [ライセンスを理解しよう](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-2-column1.md)
  * ii. [オープンデータを巡る動き](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-2-2.md)
  * iii. [公共のデータだけがオープンデータ？](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-2-3.md)
