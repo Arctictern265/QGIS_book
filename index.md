@@ -180,7 +180,7 @@
  * g'. [特殊なレイヤを追加する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-6-2.md)
  * h. [レイヤにスタイルを設定する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-8.md)
  * i. [レイヤを編集する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-9.md)
- * j.  [レイヤを保存する]](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-10.md)
+ * j.  [レイヤを保存する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-10.md)
  * k. [ベクタ演算例](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-11.md)
  * l. [ラスタ演算例](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-12.md)
  * m. [印刷する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-13.md)
