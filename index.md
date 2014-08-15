@@ -68,14 +68,14 @@
  * v. レイヤ毎にスタイルを設定
  * vi. 保存しておく
 
-### b. [もう少し広い範囲を準備する #地理院地図、もしくはオープンストリートマップを利用するイメージ（大友さん）](https://github.com/Arctictern265/QGIS_book/master/3/3-2.md)
+### b. [もう少し広い範囲を準備する](https://github.com/Arctictern265/QGIS_book/master/3/3-2.md)
 
  * i. [プラグインを使用する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
  * ii. [オープンストリートマップを表示する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
  * iii. [地理院地図を表示する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
  * iv. [保存しておく](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
 
-### c. 世界地図を作成する（山手） #Natural Earthを利用するイメージ
+### c. [世界地図を作成する](https://github.com/Arctictern265/QGIS_book/master/3/3-3.md)
 
  * i. データをダウンロードする
  * ii. ファイルを開く
@@ -84,7 +84,7 @@
 
 ## 4. [テーマを決めてデータを可視化する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4.md)
 
-### a. [防災地図を作成する（大友さん）](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
+### a. [防災地図を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
 
  * [i. データをダウンロードする #国土数値情報から防災系のデータ](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
  * [ii. 点要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
@@ -92,7 +92,7 @@
  * [iv. 面要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
  * [v. 保存する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
 
-### b. [年齢別人口分布図を作成する（朝日さん）](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-2.md)
+### b. [年齢別人口分布図を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-2.md)
 
  * i. データをダウンロードする
  * ii. ファイルを開く
@@ -134,7 +134,7 @@
   * iii. 面積割合を計算する
  * iv. データを組み合わせて新たな図を作成する
   * i. ラスタデータを組み合わせる
-  * ii. 体裁を整える 
+  * ii. ラスタデータとベクタデータを組み合わせる 
   * (Column) 統計モデル
 
 ## 5. [データを出力する](https://github.com/Arctictern265/QGIS_book/blob/master/5/5.md)
@@ -154,7 +154,7 @@
  * x. 出力する
  * xi. 地図帳機能を利用する
 
-### b. Webで公開する（大友さん）
+### b. Webで公開する
 
  * i. [利用されやすい公開方法(github pagesを用いることにした)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
   * i. [利用者を想定する(->githubアカウントの作成方法へ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
@@ -184,7 +184,7 @@
  * l. [ラスタ演算例](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-12.md)
  * m. [印刷する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-13.md)
 
-## Appendix Ⅱ:データカタログ（山手） #表でざっと載せる
+## Appendix Ⅱ:データカタログ
 
 ### a. 国の機関から入手できる情報
  * i. 基盤地図情報
