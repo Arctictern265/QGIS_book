@@ -1,16 +1,16 @@
-## インストール
+﻿## インストール
 ###Windows
-QGIS Windows版は以下のサイトからインストーラーをダウンロードしてから実行します。QGISを単体でインストールしたい場合は上段のサイトから、お使いのwindowsのバージョンに対応したものを選択してダウンロードしてください。QGIS公式サイト内からネットワークインストーラー、もしくはOSGeo4Wページからインストール作業を行う場合は、特段の事情がない限りデスクトップ エクスプレス インストールを推奨します。
+QGIS Windows版はQGISのホームページからインストーラーをダウンロードしてから実行します。QGISを単体でインストールしたい場合は上段のサイトから、お使いのwindowsのバージョンに対応したものを選択してダウンロードしてください。QGIS公式サイト内からネットワークインストーラー、もしくはOSGeo4Wページからインストール作業を行う場合は、特段の事情がない限りデスクトップ エクスプレス インストールを推奨します。
 
 http://www.qgis.org/ja/site/forusers/download.html
-<img src="img/appendix1-2-2.png">
+![Win版](img/appendix1-2-2.png)
 
 http://trac.osgeo.org/osgeo4w/wiki/OSGeo4W_jp
-<img src="img/appendix1-2-1.png">
+![OSGeo4W](img/appendix1-2-1.png)
 
-今回は、QGIS Standalone Installerを使用したインストールを紹介します。
+ここでは、QGIS Standalone Installerを使用したインストールを紹介します。
 
-インストーラーをダウンロードすると、QGISロゴのアイコンで象徴される実行ファイルが表示されるかと思います。
+インストーラーをダウンロードすると、QGISロゴのアイコンで表される実行ファイルが表示されます。
 <div align="left"><img src="img/installer.png"></div>
 
 このファイルを実行してください。
@@ -25,7 +25,7 @@ http://trac.osgeo.org/osgeo4w/wiki/OSGeo4W_jp
 
 <img src="img/appendix1-2-5.png">
 
-インストール先のフォルダを参照します。今回はデフォルトのままインストールを行います。デフォルトの場合はCドライブのProgram Files直下に、QGIS Valmeriaを作成してインストールします。インストール先のディレクトリを確認してから、次へをクリックしてください。
+インストール先のフォルダを参照します。今回はデフォルトのままインストールを行います。デフォルトの場合はCドライブのProgram Files (x86)直下に、QGIS Chugiakを作成してインストールします。インストール先のディレクトリを確認してから、次へをクリックしてください。
 
 <img src="img/appendix1-2-6.png">
 
@@ -36,9 +36,10 @@ http://trac.osgeo.org/osgeo4w/wiki/OSGeo4W_jp
 セットアップウィザードは完了しましたと表示されれば、セットアップは完了しています。デスクトップにショートカットランチャーが作成されていることを確認し、起動してください。
  
 ###Mac
-QGIS Mac版は以下のサイトから必要なファイルをダウンロードしてからインストールを行います。2014年6月現在、OS X Lion、Mt Lion、Mavericksに対応しています。
+QGIS Mac版は以下のホームページから必要なファイルをダウンロードしてからインストールを行います。2014年8月現在、OS X Lion、Mt Lion、Mavericksに対応しています。
 
 http://www.kyngchaos.com/software/qgis
+![Mac版](img/appendix1-2-8.png)
 
 まず、以下のファイルをダウンロードします。
 
@@ -58,7 +59,7 @@ http://www.kyngchaos.com/software/qgis
 
 QGIS本体:
 
- - QGIS 2.2.0-9
+ - QGIS 2.4.0-1
 
 ファイルをダウンロードしたら、上から順番にインストールします。ダウンロードしたdmgファイルをダブルクリックして、中身のpkgファイルをダブルクリックするとインストールが始まります。
 
