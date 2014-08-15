@@ -9,8 +9,8 @@
  * ii. [情報は位置に結びつく](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-2.md)
  * iii. [位置の表現の仕方](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-3.md)
  * (Column) [同じ経度緯度でも位置が違う？-測地系の違い](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-column1.md)
- * iv. [さまざまな投影法](https://github.com/Arctictern265/QGIS_book/commit/4e017c3a18745f0066f48dd90a84d824636606d8)
- * (Column) [空間参照系](https://github.com/Arctictern265/QGIS_book/commit/12713251451820375fe8ae656035ecea8ff9d857)
+ * iv. [さまざまな投影法](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-4.md)
+ * (Column) [空間参照系](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-column2.md)
  * v. [住所から位置を求める](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-5.md)
  * vi. [可視化することで理解が進む](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-1-6.md)
 
@@ -104,23 +104,38 @@
 
 ### c. [山岳表現を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-3.md)
 
- * i. データをダウンロードする
-  * i. 日本の範囲内の場合 #基盤地図情報から数値標高モデル
-  * ii. 世界中のデータを扱いたい場合 #topography from global 30 arcsecond grid
- * (Column) 10mメッシュは10mではない？
- * ii. グリッドデータへ加工する
- * iii. 陰影を作成する
- * iv. 標高毎に色分け
- * v. 選択したレイヤを出力する
- * vi. 保存する
- * (Column) 標高タイル
+ * i. 日本の範囲内の場合 #基盤地図情報から数値標高モデル
+  * i. データをダウンロードする
+  * (Column) 10mメッシュは10mではない？
+  * ii. グリッドデータへ加工する
+  * (Column) 数値標高モデルの変換ツール
+  * iii. 標高ごとに色分けする
+  * iv. 陰影図を作成する
+  * v. 色分けした標高と陰影図を重ねる
+ * ii. 世界中のデータを扱いたい場合 #ETOPO1
+  * i. データをダウンロードする
+  * ii. 投影法を変換する
+  * iii. 標高ごとに色分けする
+  * iv. 色分けした標高と陰影図を重ねる
 
-### d. [その他様々な可視化例](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-4.md)
+### d. [データから新たな図を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-4.md)
 
- * i. 保育所が必要な場所を可視化する
- * ii. 植生データを可視化する
- * iii. 海水水温を可視化する
- * iv. カッパの生息適地を可視化する
+ * i. 河川データから河川からの距離図を作成する
+  * i. データをダウンロードする
+  * ii. ラスタデータに変換する
+  * iii. 距離を計算する
+ * ii. 標高データから日射量図を作成する
+  * i. データをダウンロードする
+  * ii. 傾斜、斜面方位を計算する
+  * iii. 日射量を計算する
+ * i. 植生データから畑地の面積割合図を作成する
+  * i. データをダウンロードする
+  * ii. ラスタデータに変換する
+  * iii. 面積割合を計算する
+ * iv. データを組み合わせて新たな図を作成する
+  * i. ラスタデータを組み合わせる
+  * ii. 体裁を整える 
+  * (Column) 統計モデル
 
 ## 5. [データを出力する](https://github.com/Arctictern265/QGIS_book/blob/master/5/5.md)
 
