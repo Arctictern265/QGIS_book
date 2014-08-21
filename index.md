@@ -53,7 +53,7 @@
 
  * i. [見ておくべきところ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-3-1.md)
  * ii. [クリエイティブ・コモンズ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-3-2.md)
- * iii. パブリックドメイン
+ * iii. [パブリックドメイン](https://github.com/Arctictern265/QGIS_book/blob/b905b9f17a9056898cd487348017472f9987908e/2/2-3-3.md)
  * (Column) [測量成果の複製・使用](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-3-column1.md)
 
 ## 3. [基本となる地図を準備する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3.md)
