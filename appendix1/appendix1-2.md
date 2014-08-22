@@ -3,43 +3,42 @@
 QGIS Windows版はQGISのホームページからインストーラーをダウンロードしてから実行します。QGISを単体でインストールしたい場合は上段のサイトからお使いのwindowsのバージョンに対応したものを選択して、ダウンロードしてください。QGIS公式ホームページ内からネットワークインストーラー、もしくはOSGeo4Wページからインストール作業を行う場合は、特段の事情がない限りデスクトップ エクスプレス インストールを推奨します。
 
 http://www.qgis.org/ja/site/forusers/download.html
-![Win版](img/appendix1-2-2.png)
+![Windows版のダウンロード](img/appendix1-2-2.png)
 
 http://trac.osgeo.org/osgeo4w/wiki/OSGeo4W_jp
-![OSGeo4W](img/appendix1-2-1.png)
+![OSGeo4Wインストーラ](img/appendix1-2-1.png)
 
 ここでは、QGIS Standalone Installerを使用したインストールを紹介します。
 
 インストーラーをダウンロードすると、QGISロゴアイコンの実行ファイルが表示されます。
-<div align="left"><img src="img/installer.png"></div>
+![QGISインストーラアイコン](img/installer.png)
 
 このファイルを実行してください。
-
-<img src="img/appendix1-2-3.png">
+![セットアップウィザード起動画面](img/appendix1-2-3.png)
 
 セットアップウィザードが開いたら、次へをクリックしてください。
 
-<img src="img/appendix1-2-4.png">
+![ライセンス契約書画面](img/appendix1-2-4.png)
 
 契約書の全ての条件に同意するならば、同意するをクリックしてください。
 
-<img src="img/appendix1-2-5.png">
+![インストール先選択画面](img/appendix1-2-5.png)
 
 インストール先のフォルダを参照します。今回はデフォルトのままインストールを行います。デフォルトの場合はCドライブのProgram Files (x86)直下に、QGIS Chugiakを作成してインストールします。インストール先のディレクトリを確認してから、次へをクリックしてください。
 
-<img src="img/appendix1-2-6.png">
+![コンポーネント選択画面](img/appendix1-2-6.png)
 
 インストールコンポーネントとしてサンプルデータを一緒にインストールすることもできます。特に必要なければインストールを行わなくても問題ありません。コンポーネントにチェックが入っていないことを確認してからインストールをクリックしてください。
 
-<img src="img/appendix1-2-7.png">
+![セットアップウィザード完了画面](img/appendix1-2-6.png)
 
-セットアップウィザードは完了しましたと表示されれば、セットアップは完了しています。デスクトップにショートカットランチャーが作成されていることを確認し、起動してください。
+セットアップウィザードは完了しましたと表示されれば、セットアップは完了しています。デスクトップにショートカットが作成されていることを確認し、起動してください。
  
 ###Mac
 QGIS Mac版は以下のホームページから必要なファイルをダウンロードしてからインストールを行います。2014年8月現在、OS X Lion、Mt Lion、Mavericksに対応しています。
 
 http://www.kyngchaos.com/software/qgis
-![Mac版](img/appendix1-2-8.png)
+![Mac版のダウンロード](img/appendix1-2-8.png)
 
 まず、以下のファイルをダウンロードします。
 
