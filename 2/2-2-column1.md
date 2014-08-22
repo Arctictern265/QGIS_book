@@ -5,6 +5,5 @@
 
 最近では地形図や衛星写真のような一般図だけでなく、植生図や地質図のような主題図などもタイル地図で配信されるようになってきています。
 
-![イメージ](http://portal.cyberjapan.jp/help/image/tileNum.png)
-（あとで画像を作り直すこと！）
+![タイル地図とズームレベルの関係](http://portal.cyberjapan.jp/help/image/tileNum.png)
 
