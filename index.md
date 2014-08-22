@@ -1,4 +1,4 @@
-#地図情報のオープンデータ可視化［実践］入門
+﻿#地図情報のオープンデータ可視化［実践］入門
 
 ## 全ページ
 
@@ -168,7 +168,7 @@
  * ii. [画像データで公開する(->githubにpushするに変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
  * (Column) 画像に位置を結ぶつける - ジオリファレンス
  * iii. [ベクトルデータで公開する(->github pagesようにリポジトリをeditするへ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
- * (Column) WMS/WFS
+ * (Column) [WMS/WFS](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2-column1.md)
  * (Column) Mapbox
 
 ## Appendix Ⅰ: QGIS操作ガイド
