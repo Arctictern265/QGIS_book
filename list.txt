@@ -63,6 +63,7 @@ index.md
 --
 5/5-2.md
 5/5-2-column1.md
+5/5-2-column2.md
 --
 appendix1/appendix1-1.md
 appendix1/appendix1-2.md

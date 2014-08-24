@@ -169,7 +169,7 @@
  * (Column) 画像に位置を結ぶつける - ジオリファレンス
  * iii. [ベクトルデータで公開する(->github pagesようにリポジトリをeditするへ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
  * (Column) [WMS/WFS](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2-column1.md)
- * (Column) Mapbox
+ * (Column) [Mapbox](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2-column2.md)
 
 ## Appendix Ⅰ: QGIS操作ガイド
 
