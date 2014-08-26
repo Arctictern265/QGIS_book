@@ -5,3 +5,10 @@ Pratap Misra and Per Enge 原著 測位航法学会 訳
 
 QuantumGIS入門
 今木 洋大 著　出版社:古今書院
+
+
+オープンデータ流通通信コンソーシアム(2014)「オープンデータガイド第1版」
+http://www.opendata.gr.jp/news/docs/opendata-guide-v1.pdf
+
+飛田幹男(2002)「世界測地系と座標変換」
+社団法人日本測量協会
