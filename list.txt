@@ -72,6 +72,7 @@ appendix1/appendix1-4.md
 appendix1/appendix1-5.md
 appendix1/appendix1-6.md
 appendix1/appendix1-7.md
+appendix1/appendix1-6-2.md
 appendix1/appendix1-8.md
 appendix1/appendix1-9.md
 appendix1/appendix1-10.md
@@ -82,3 +83,4 @@ appendix1/appendix1-13.md
 appendix2/appendix2.md
 appendix2/appendix2-1.md
 appendix2/appendix2-2.md
+appendix2/appendix2-3.md
