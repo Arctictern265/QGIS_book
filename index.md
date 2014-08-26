@@ -166,7 +166,7 @@
   * ii. [ライセンスを決定する(->githubリポジトリのクローンを行うへ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
   * iii. [フォーマットを決定する(->githubを利用した作業へ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
  * ii. [画像データで公開する(->githubにpushするに変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
- * (Column) 画像に位置を結ぶつける - ジオリファレンス
+ * (Column) [githubにGeoJSONデータを保存する](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-3-column3.md)
  * iii. [ベクトルデータで公開する(->github pagesようにリポジトリをeditするへ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
  * (Column) [WMS/WFS](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2-column1.md)
  * (Column) [Mapbox](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2-column2.md)
