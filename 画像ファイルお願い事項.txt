@@ -3,6 +3,6 @@
 1/img/1-1-column1-1.png : 他の図と合わせて統一したイメージにしたい
 1/img/1-1-column1-2.png : 他の図と合わせて統一したイメージにしたい
 1/img/1-1-column1-3.png : 他の図と合わせて統一したイメージにしたい
-2/2-2.md : http://portal.cyberjapan.jp/help/image/tileNum.pngを参考に画像を作り替えたい。ZL0となっているところをズームレベル0とする。あとは同じでよい。
+2/2-2-8.md : http://portal.cyberjapan.jp/help/image/tileNum.pngを参考に画像を作り替えたい。ZL0となっているところをズームレベル0とする。あとは同じでよい。
 4/4-4.md : http://resources.arcgis.com/ja/help/main/10.1/009z/GUID-A60FBF12-5DED-4AB2-9250-5A5BB636DE92-web.pngを参考にr.neighborsの説明画像を作り替えたい。
 4/4-4.md : http://resources.arcgis.com/ja/help/main/10.1/009z/GUID-2E38BCF6-2101-4BAF-A607-6F1CCC8DE5AF-web.gifを参考に日射量の説明画像を作り替えたい。
