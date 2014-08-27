@@ -190,39 +190,73 @@
  * l. [ラスタ演算例](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-12.md)
  * m. [印刷する](https://github.com/Arctictern265/QGIS_book/blob/master/appendix1/appendix1-13.md)
 
-## Appendix Ⅱ:データカタログ
+## Appendix Ⅱ:[データカタログ](https://github.com/Arctictern265/QGIS_book/blob/master/appendix2/appendix2.md)
 
-### a. 国の機関から入手できる情報
+### a. [国の機関から入手できる情報](https://github.com/Arctictern265/QGIS_book/blob/master/appendix2/appendix2-1.md)
  * i. 基盤地図情報
-  * i. 入手できるデータの種類
-  * ii. ライセンス
-  * iii. フォーマット
- * ii. 地理院地図
-  * i. 入手できるデータの種類
-  * ii. ライセンス
-  * iii. フォーマット
- * iii. 国土数値情報
-  * i. 入手できるデータの種類
-  * ii. ライセンス
-  * iii. フォーマット
- * iv. 統計データ
-  * i. 入手できるデータの種類
-  * ii. ライセンス
-  * iii. フォーマット
+ * ii. 国土数値情報
+ * iii. 自然環境情報GIS提供システム
+ * iv. e-stat
 
-### b. 自治体から入手できる情報
+### b. [地方自治体から入手できる情報](https://github.com/Arctictern265/QGIS_book/blob/master/appendix2/appendix2-2.md)
 
- * i. 自治体のオープンデータ
- * ii. 代表的な例
-  * i. 静岡県
-  * ii. 鯖江市
-  * iii. 千葉市
-  * iv. 室蘭市
+ * i. 都道府県
+  * 福井県
+  * 岐阜県
+  * 静岡県
+  * 愛知県
+  * 兵庫県
+  * 鳥取県
+ * ii. 市町村
+  * 北海道室蘭市
+  * 岩手県陸前高田市
+  * 宮城県大崎市
+  * 秋田県横手市
+  * 福島県会津若松市
+  * 群馬県前橋市
+  * 埼玉県さいたま市
+  * 埼玉県和光市
+  * 埼玉県南埼玉郡宮代町
+  * 千葉県千葉市
+  * 千葉県流山市
+  * 東京都板橋区
+  * 東京都八王子市
+  * 神奈川県横浜市
+  * 神奈川県横浜市金沢区
+  * 神奈川県川崎市
+  * 神奈川県相模原市
+  * 神奈川県横須賀市
+  * 神奈川県藤沢市
+  * 神奈川県大和市
+  * 新潟県三条市
+  * 新潟県糸魚川市
+  * 石川県金沢市
+  * 石川県野々市市
+  * 石川県河北郡内灘町
+  * 福井県福井市
+  * 福井県敦賀市
+  * 福井県鯖江市
+  * 福井県越前市
+  * 福井県坂井市
+  * 福井県吉田郡永平寺町
+  * 長野県須坂市
+  * 岐阜県大垣市
+  * 静岡県三島市
+  * 静岡県裾野市
+  * 静岡県御前崎市
+  * 愛知県名古屋市
+  * 滋賀県大津市
+  * 大阪府大阪市
+  * 奈良県葛城市
+  * 島根県松江市
+  * 岡山県玉野市
+  * 福岡県福岡市
+  * 佐賀県武雄市
 
-### c. その他の情報
+### c. [国外のデータ](https://github.com/Arctictern265/QGIS_book/blob/master/appendix2/appendix2-3.md)
 
- * i. 世界地図の入手(NaturalEarth?)
-  * i. 入手できるデータの種類
-  * ii. ライセンス
-  * iii. フォーマット
- * ii. (その他、後の事例で使用するデータなどを紹介)
+ * i. Natural Earth
+ * ii. 地球地図
+ * iii. Landsat衛星画像
+ * iv. VIIRS（Visible Infrared Imaging Radiometer Suite）衛星画像
+ * v. SRTM（Shuttle Radar Topography Mission） 
