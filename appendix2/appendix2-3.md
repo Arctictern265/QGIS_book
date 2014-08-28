@@ -1,4 +1,4 @@
-## 国外のデータ
+﻿## 国外のデータ
 
 この項ではNatural EarthやLandsat衛星画像など、国外から入手可能なデータの中でも代表的なものを列挙します。
 
@@ -11,7 +11,7 @@ http://www.naturalearthdata.com/
 
 #### ・データフォーマット
 
-ベクタデータのフォーマットはESRI Shapeファイル、ラスタデータのフォーマットはTIFF+TFW。
+ベクタデータのフォーマットはESRI Shapefile、ラスタデータのフォーマットはTIFF+TFW。
 
 #### ・データ項目
 
