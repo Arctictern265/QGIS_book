@@ -1,4 +1,4 @@
-1/img/1-1-3-1.jpg : イメージ図(http://www.geod.jpn.org/web-text/part2/2-1/2-1_figures/Fig5.jpg)を参照し、書き直したい。これと同じでよい。
+﻿1/img/1-1-3-1.jpg : イメージ図(http://www.geod.jpn.org/web-text/part2/2-1/2-1_figures/Fig5.jpg)を参照し、書き直したい。これと同じでよい。
 1/img/1-1-3-2.jpg : イメージ図(だけどちょっと違う 参照：http://www.jmc.or.jp/image/faq/m10.jpg)を参照し、地球楕円面が、平面上に投影される絵にしたい。縮尺係数の表示はいらない。代わりに投影座標の目盛りを入れる。目盛りの値は-100000、原点0、100000にする。
 1/img/1-1-column1-1.png : 他の図と合わせて統一したイメージにしたい
 1/img/1-1-column1-2.png : 他の図と合わせて統一したイメージにしたい
@@ -6,3 +6,4 @@
 2/2-2-8.md : http://portal.cyberjapan.jp/help/image/tileNum.pngを参考に画像を作り替えたい。ZL0となっているところをズームレベル0とする。あとは同じでよい。
 4/4-4.md : http://resources.arcgis.com/ja/help/main/10.1/009z/GUID-A60FBF12-5DED-4AB2-9250-5A5BB636DE92-web.pngを参考にr.neighborsの説明画像を作り替えたい。
 4/4-4.md : http://resources.arcgis.com/ja/help/main/10.1/009z/GUID-2E38BCF6-2101-4BAF-A607-6F1CCC8DE5AF-web.gifを参考に日射量の説明画像を作り替えたい。
+2/2-2--column2.md : http://www.cookbook.hlurb.gov.ph/files/images/RasterVector.preview.jpg を参考に作り変えたい。ただ、もう少し文章に合わせた画像の方がよい。

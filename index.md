@@ -48,6 +48,7 @@
  * vii. [標高値データもしくはグリッドデータ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-7.md)
  * viii. [タイル地図](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-8.md)
  * (Column) [オープンストリートマップ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-column1.md)
+ * (Column) [ベクタデータとラスタデータ](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-2-column2.md)
 
 ### c. ライセンス
 
