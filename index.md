@@ -118,7 +118,7 @@
   * iii. 標高ごとに色分けする
   * iv. 色分けした標高と陰影図を重ねる
 
-### d. [データから新たな図を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-4.md)
+### d. [カッパ出没マップを作成する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-4.md)
 
  * i. 河川データから河川からの距離図を作成する
   * i. データをダウンロードする
@@ -137,9 +137,9 @@
   * ii. 傾斜、傾斜方位を計算する
   * iii. 日射量を計算する
  * iv. データを組み合わせて新たな図を作成する
-  * i. ラスタデータを組み合わせる
+  * i. カッパ出没マップを作成する
   * (Column)統計モデル
-  * ii. ラスタデータとベクタデータを組み合わせる 
+  * ii. カッパ遭遇危険度マップを作成する 
   * (Column)オープンソースとしてのQGIS
 
 ## 5. [データを出力する](https://github.com/Arctictern265/QGIS_book/blob/master/5/5.md)
