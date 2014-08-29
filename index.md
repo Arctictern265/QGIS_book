@@ -1,7 +1,9 @@
-#地図情報のオープンデータ可視化［実践］入門
+﻿#地図情報のオープンデータ可視化［実践］入門
 
 ## 全ページ
 
+
+[リード文](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-lead.md)
 ## 1. [地理空間情報とオープンデータの概要](https://github.com/Arctictern265/QGIS_book/blob/master/1/1.md)
 
 ###  a. 地理空間情報とは
@@ -30,6 +32,8 @@
  * (Column) [OSGeo財団](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-column2.md)
  * iii. [位置情報利用への期待と課題](https://github.com/Arctictern265/QGIS_book/blob/master/1/1-3-3.md)
 
+
+[リード文](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-lead.md)
 ## 2. [データを準備する](https://github.com/Arctictern265/QGIS_book/blob/master/2/2.md)
 
 ### a. オープンデータを使う
@@ -57,6 +61,8 @@
  * iii. [パブリックドメイン](https://github.com/Arctictern265/QGIS_book/blob/b905b9f17a9056898cd487348017472f9987908e/2/2-3-3.md)
  * (Column) [測量成果の複製・使用](https://github.com/Arctictern265/QGIS_book/blob/master/2/2-3-column1.md)
 
+
+[リード文](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-lead.md)
 ## 3. [基本となる地図を準備する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3.md)
 
 ### a. [身近な地図を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-1.md)
@@ -83,6 +89,8 @@
  * iii. レイヤ毎にスタイルを設定
  * iv. 保存しておく
 
+
+[リード文](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-lead.md)
 ## 4. [テーマを決めてデータを可視化する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4.md)
 
 ### a. [防災地図を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
@@ -143,6 +151,8 @@
   * ii. カッパ遭遇危険度マップを作成する 
   * (Column)オープンソースとしてのQGIS
 
+
+[リード文](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-lead.md)
 ## 5. [データを出力する](https://github.com/Arctictern265/QGIS_book/blob/master/5/5.md)
 
 
