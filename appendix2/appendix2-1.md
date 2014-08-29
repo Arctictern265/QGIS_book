@@ -62,5 +62,14 @@
 - データ項目：Landsat8、VIIRS、MODIS、MTSAT衛星画像および火山監視画像、海洋・気象監視画像等
 - フォーマット：JPEG
 
+### 地すべり地形GISデータ
+
+- 提供機関：独立行政法人　科学技術振興機構
+- URL：http://lsweb1.ess.bosai.go.jp/gis-data/index.html
+- データ項目：地すべり地形GISデータ
+- フォーマット：Shape
+
+
+
 
  
