@@ -1,193 +1,138 @@
-﻿## 国外のデータ
+## 国外のサイト
 
 この項ではNatural EarthやLandsat衛星画像など、国外から入手可能なデータの中でも代表的なものを列挙します。
-
 
 ### Natural Earth
 
 #### ・URL
-
 http://www.naturalearthdata.com/
 
-#### ・データフォーマット
+#### ・配布データ
+Natural Earth各種データ
 
-ベクタデータのフォーマットはESRI Shapefile、ラスタデータのフォーマットはTIFF+TFW。
 
-#### ・データ項目
-
-##### Cultural #####
-- Admin
-- Populated Places
-- Roads
-- Railroads
-- Airports
-- Ports
-- Urban Areas
-- Parks and Protected Lands
-- Timezones
-- Cultural Building Blocks
-
-##### Physical #####
-- Coastline
-- Land
-- Minor Islands
-- Reefs
-- Ocean
-- Rivers + lake centerlines
-- Lakes + Reservoirs
-- Physical Labels
-- Playas
-- Antarctic Ice Shelves
-- Glaciated Areas
-- Bathymetry
-- Geographic lines
-- Graticules
-- Physical Building Blocks
-
-##### Raster #####
-- Cross-blended Hypsometric Tints
-- Natural Earth 1
-- Natural Earth 2
-- Ocean Bottom
-- Shaded Relief
-- Gray Earth
-
-#### ・利用規約
-
-Natural Earthデータはパブリックドメインに設定されており、自由に利用することができます。Natural Earthデータ利用規約の詳細については、Natural EarthサイトのTerms of Useのページ（ http://www.naturalearthdata.com/about/terms-of-use/ ）を参照してください。
-
-### 地球地図
+### International Steering Committee for Global Mapping（ISCGM）
 
 #### ・URL
-
-International Steering Committee for Global Mapping: ISCGM  
 http://www.iscgm.org/
 
-ダウンロードを行うにはユーザアカウントを作成する必要があります。
-日本国内の地球地図は国土地理院の地球地図紹介サイトよりダウンロードすることができます。
-
-http://www.gsi.go.jp/kankyochiri/globalmap.html
-
-#### ・データフォーマット
-
-ベクタデータはVPF、ラスタデータはBIL配列のRAWデータおよびメタデータ。
-国によってはShapeまたはTIFF形式でダウンロードが可能。
-
-#### ・データ項目
-
-##### ベクタデータ #####
-- Transportation
-- Boundaries
-- Drainage
-- Population Centres
-
-##### ラスタデータ #####
-- Elevation
-- Vegetation
-- Land Cover
-- Land Use
-
-日本の地球地図は土地被覆（Land Cover）と樹木被覆率（Vegetation）が整備されています。
-
-#### ・利用規約
+#### ・配布データ
+各国の地球地図データ。地球地図データについて国土地理院の紹介サイト（ http://www.gsi.go.jp/kankyochiri/globalmap.html ）に説明があります。また、国土地理院の地球地図サイトでは日本が作成している地球地図データ（土地被覆と樹木被覆率）をダウンロードすることもできます。
 
 地球地図は基本的には無償で利用することができますが、データポリシーは各国のそれに従っています。利用にあたってはそれぞれのデータポリシーをよく確認しておきましょう。
 
 
-### Landsat衛星画像
+### NASA's Earth Observing System Data And Information System（EOSDIS)
 
 #### ・URL
+- URL：https://earthdata.nasa.gov/
 
-##### 紹介、解説ページ #####
-アメリカ航空宇宙局：NASA  
-http://landsat.gsfc.nasa.gov/
-
-宇宙航空研究開発機構：JAXA  
-http://spaceinfo.jaxa.jp/ja/landsat.html
-
-##### ダウンロードサイト #####
-アメリカ地質調査所：USGS  
-http://landsat.usgs.gov/Landsat_Search_and_Download.php  
-
-産業技術総合研究所  
-http://landsat8.geogrid.org/l8/index.php/ja/
-
-メリーランド大学  
-http://glcf.umd.edu/data/landsat/
-
-#### ・データフォーマット
-各ダウンロードサイト参照。
+#### ・配布データ
+NASAの地球観測ミッションおよび地球科学データ。具体的には衛星や航空機などから得られた地球観測データと、それらのデータを解析して得られた高度解析データを配布しています。
 
 
-### modis（MODerate resolution Imaging Spectroradiometer）衛星画像
+### アメリカ地質調査所：USGS
 
 #### ・URL
+http://www.usgs.gov/
 
-##### 紹介、解説ページ #####
-アメリカ航空宇宙局：NASA  
-http://modis.gsfc.nasa.gov/
-
-宇宙航空研究開発機構：JAXA  
-http://www.eorc.jaxa.jp/hatoyama/satellite/sendata/modis_j.html
-
-##### ダウンロードサイト #####
-
-NASA EOSDIS  
-https://earthdata.nasa.gov/
-
-アメリカ地質調査所：USGS  
-http://e4ftl01.cr.usgs.gov
-
-#### ・データフォーマット
-HDF4
+#### ・配布データ
+Landsat、ASTER等の衛星画像をはじめとした遠隔探査画像データ、およびGTOPO30等の地形データ、水門データ等多数のデータセットを配布しています。
 
 
-### VIIRS（Visible Infrared Imaging Radiometer Suite）衛星画像
+### LAND PROCESSED DISTRIBUTED ACTIVE ARCHIVE CENTER：LP DAAC
 
 #### ・URL
+https://lpdaac.usgs.gov/
 
-##### 紹介、解説ページ #####
-アメリカ航空宇宙局：NASA  
-http://npp.gsfc.nasa.gov/viirs.html
-
-東京情報大学  
-http://www.tuis.ac.jp/research/support-projects/satellite-image/index.html
-
-東海大学宇宙情報センター　　
-http://www.tsic.u-tokai.ac.jp/NPP_VIIRS/html/index.php
-
-##### ダウンロードサイト #####
-アメリカ海洋大気庁：NOAA  
-http://www.nsof.class.noaa.gov/saa/products/welcome  
-メニューからVIIRSを選択するとプロダクトの検索・ダウンロードのページへ移動します。
-
-東海大学宇宙情報センター　サンプルデータ公開　　
-http://www.tsic.u-tokai.ac.jp/viirs_download/viirsdl.php
-
-#### ・データフォーマット
-HDF5
+#### ・配布データ
+ASTER各種プロダクト、SRTM、MODIS各種プロダクトなどの観測データ。
 
 
-### SRTM（Shuttle Radar Topography Mission）
+### アメリカ海洋大気庁：NOAA
 
 #### ・URL
+http://www.noaa.gov/
 
-##### 紹介、解説ページ #####
-アメリカ航空宇宙局：NASA  
-http://www2.jpl.nasa.gov/srtm/
+#### ・配布データ
+NOAA Comprehensive Large Array-Data Stewardship System（CLASS：  http://www.nsof.class.noaa.gov/saa/products/welcome ）では気象衛星Suomi NPP衛星などNOAAが運用している衛星が搭載している観測画像のほか、高度に処理された気象データなどを配布しています。
 
-アメリカ地質調査所：USGS  
-http://srtm.usgs.gov/index.php
 
-##### ダウンロードサイト #####
-国際農業研究協議グループ：CGIAR  
-http://srtm.csi.cgiar.org/
+### NOAA National Geophysical Data Cnter（NOAA NGDC）
 
-Global Land Cover Facility：GLCF  
-http://www.landcover.org/data/srtm/
+#### ・URL
+http://www.ngdc.noaa.gov/ngdc.html
 
-GIScience  
-http://www.opendem.info/download_srtm.html
+#### ・配布データ
+NOAAが管理、生産している地球物理学的データ。ETOPO画像データもここで配布しています（ http://www.ngdc.noaa.gov/mgg/global/global.html ）。
 
-#### ・データフォーマット
-各ダウンロードサイト参照。
+
+### CGIAR CSI（国際農業研究協議グループ）
+
+#### ・URL
+http://www.cgiar-csi.org/
+
+#### ・配布データ
+全世界の気候データ、水文データ、およびSRTM地形データ
+
+
+### Global Land Cover Facility：GLCF（メリーランド大学）
+
+#### ・URL
+http://www.landcover.org/
+http://glcf.umd.edu/data/
+
+#### ・配布データ
+SRTM、MODIS等の地球観測データ、およびそれらのデータを基にして生成された全世界の土地被覆データ、植生データ等を配布しています。プロダクトごとに利用許諾が設定されているので、各データを利用するときは注意してください。
+
+
+### OPENDEM
+
+#### ・URL
+http://www.opendem.info/
+
+#### ・配布データ
+SRTM地形データ
+
+
+### Harmonized World Soil Database
+
+#### ・URL
+http://webarchive.iiasa.ac.at/Research/LUC/External-World-soil-database/
+
+#### ・配布データ
+全地球の地質データ、地形データ、土地利用・土地被覆データなど
+
+
+### National Snow & Ice Data Center（NSIDC）
+
+#### ・URL
+http://nsidc.org/
+
+#### ・配布データ
+全地球の雪氷、気候関連データ、土地・地質関連データ他
+
+
+#### ・WorldClim - Global Climate Data
+
+#### ・URL
+http://www.worldclim.org/
+
+#### ・配布データ
+気候関連データ
+
+
+### アメリカ疾病予防管理センター（CDC.gov）EPI info
+
+#### ・URL
+http://wwwn.cdc.gov/epiinfo/
+
+#### ・配布データ
+各国の州界、県境等の境界データ
+
+
+
+
+
+
+
