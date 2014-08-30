@@ -10,7 +10,7 @@ LinuxのディストリビューションがDebian系の人
 sudo apt-get install git
 ```
 
-LinuxのディストリビューションがRedHat系の人
+LinuxのディストリビューションがRedHat系の人  
 \# [root]になっている状態で
 
 ```
