@@ -89,13 +89,12 @@
 [リード文](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-lead.md)
 ## 4. [テーマを決めてデータを可視化する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4.md)
 
-### a. [防災地図を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
+### a. [防災・減災・安全に役立つ地図を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
 
- * [i. データをダウンロードする #国土数値情報から防災系のデータ](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
- * [ii. 点要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
- * [iii. 線要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
- * [iv. 面要素のスタイル](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
- * [v. 保存する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-1.md)
+ * i. データをダウンロードする
+ * ii. 点要素のスタイル
+ * iii. 線要素のスタイル
+ * iv. 面要素のスタイル
 
 ### b. [年齢別人口分布図を作成する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-2.md)
 
