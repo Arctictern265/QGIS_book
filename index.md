@@ -75,20 +75,16 @@
  * v. レイヤ毎にスタイルを設定
  * vi. 保存しておく
 
-### b. [もう少し広い範囲を準備する](https://github.com/Arctictern265/QGIS_book/master/3/3-2.md)
-
- * i. [プラグインを使用する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
- * ii. [オープンストリートマップを表示する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
- * iii. [地理院地図を表示する](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
- * iv. [保存しておく](https://github.com/Arctictern265/QGIS_book/blob/master/3/3-2.md)
-
-### c. [世界地図を作成する](https://github.com/Arctictern265/QGIS_book/master/3/3-3.md)
+### b. [世界地図を作成する](https://github.com/Arctictern265/QGIS_book/master/3/3-3.md)
 
  * i. データをダウンロードする
  * ii. ファイルを開く
  * iii. レイヤ毎にスタイルを設定
- * iv. 保存しておく
 
+### c. [公開されている地図を利用する](https://github.com/Arctictern265/QGIS_book/master/3/3-2.md)
+
+ * i. オープンストリートマップを利用する
+ * ii. 地理院地図を利用する
 
 [リード文](https://github.com/Arctictern265/QGIS_book/blob/master/4/4-lead.md)
 ## 4. [テーマを決めてデータを可視化する](https://github.com/Arctictern265/QGIS_book/blob/master/4/4.md)
