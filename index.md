@@ -204,10 +204,18 @@
  * ii. 国土数値情報
  * iii. 自然環境情報GIS提供システム
  * iv. e-stat
+ * v. ASTER GDEM
+ * vi. LANDSAT8直接受信・即時公開サービス
+ * vii. 東京情報大学 VIIRSプロジェクト
+ * viii. 東海大学宇宙情報センター
+ * ix. 地すべり地形GISデータ
+ * x. 地球観測衛星データ提供システム β版
 
 ### b. [地方自治体から入手できる情報](https://github.com/Arctictern265/QGIS_book/blob/master/appendix2/appendix2-2.md)
 
  * i. 都道府県
+  * 栃木県
+  * 埼玉県
   * 福井県
   * 岐阜県
   * 静岡県
@@ -263,7 +271,37 @@
 ### c. [国外のデータ](https://github.com/Arctictern265/QGIS_book/blob/master/appendix2/appendix2-3.md)
 
  * i. Natural Earth
- * ii. 地球地図
- * iii. Landsat衛星画像
- * iv. VIIRS（Visible Infrared Imaging Radiometer Suite）衛星画像
- * v. SRTM（Shuttle Radar Topography Mission） 
+ * ii.  International Steering Committee for Global Mapping（ISCGM）
+ * iii. NASA's Earth Observing System Data And Information System（EOSDIS)
+ * iv. アメリカ地質調査所：USGS
+ * v. LAND PROCESSED DISTRIBUTED ACTIVE ARCHIVE CENTER：LP DAAC
+ * vi. アメリカ海洋大気庁：NOAA
+ * vii. NOAA National Geophysical Data Cnter（NOAA NGDC）
+ * viii. CGIAR CSI（国際農業研究協議グループ）
+ * ix. Global Land Cover Facility：GLCF（メリーランド大学）
+ * x.OPENDEM
+ * xi. Harmonized World Soil Database
+ * xii. National Snow & Ice Data Center（NSIDC）
+ * xiii. アメリカ疾病予防管理センター（CDC.gov）EPI info
+
+### d.  [配信地図](https://github.com/Arctictern265/QGIS_book/blob/master/appendix2/appendix2-4.md)
+
+ * i. 基盤地図情報WMS  
+ * ii. 歴史的農業環境WMS配信サービス
+ * iii. 被災地空中写真 WMS / TMS
+ * iv. 地質図  
+ * v. 日本の地球化学図
+ * vi. 日本重力データベース
+ * vii. 海底標高図
+ * viii. 地理院タイル  
+ * ix. エコリス地図タイル  
+ * x. OpenStreetMap
+ * xi. USGS The National Map
+
+### e.  [データポータルサイト](https://github.com/Arctictern265/QGIS_book/blob/master/appendix2/appendix2-5.md)
+
+ * i. Open Data METI
+ * ii. DATA.go.jp
+ * iii. ckan
+ * iv. Data for Japan
+ * v. LinkData.org

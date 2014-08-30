@@ -95,3 +95,5 @@ appendix2/appendix2.md
 appendix2/appendix2-1.md
 appendix2/appendix2-2.md
 appendix2/appendix2-3.md
+appendix2/appendix2-4.md
+appendix2/appendix2-5.md

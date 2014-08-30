@@ -1,4 +1,4 @@
-## 配信地図
+﻿## 配信地図
 
 #### 基盤地図情報WMS  
 - 提供機関：独立行政法人　農業・食品産業技術総合研究機構　近畿中国四国農業研究センター
@@ -49,7 +49,7 @@
 - 提供機関：株式会社エコリス
 - URL：http://map.ecoris.info/index.html
 
-#### OpenStreetMap
+#### オープンストリートマップ
 - 提供機関：OpenStreetMap Foundation
 - URL：http://www.openstreetmap.org/
 
