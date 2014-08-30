@@ -1,7 +1,5 @@
 ## 配信地図
 
-###　WMS、WMTS
-
 #### 基盤地図情報WMS  
 - 提供機関：独立行政法人　農業・食品産業技術総合研究機構　近畿中国四国農業研究センター
 - URL：http://www.finds.jp/wsdocs/kibanwms/index.html.ja
@@ -11,6 +9,13 @@
 - 提供機関：独立行政法人　農業・食品産業技術総合研究機構　近畿中国四国農業研究センター
 - URL：http://www.finds.jp/wsdocs/hawms/index.html.ja
 - URL（WMS）: http://www.finds.jp/ws/hawms.cgi?
+
+#### 被災地空中写真 WMS / TMS
+- 提供機関：独立行政法人　農業・食品産業技術総合研究機構　近畿中国四国農業研究センター
+- URL：http://www.finds.jp/independent/tohoku/photo201103wms.html
+- URL（WMS）: http://www.finds.jp/ws/photo201103wms.cgi?
+- URL（TMS）：http://www.finds.jp/independent/tohoku/tms/1.0.0/
+
 
 #### 地質図  
 - 提供機関：独立行政法人　産業技術総合研究所
@@ -36,13 +41,19 @@
 - 提供機関：United Nations Environment Programme 
 - URL（WMS）: http://gridca.grid.unep.ch/cgi-bin/mapserv?map=/www/geodataportal/htdocs/mod_map/geo_wms.map&
 
-
-### TMS
-
 #### 地理院タイル  
-- 提供機関：
+- 提供機関：国土地理院
 - URL：http://portal.cyberjapan.jp/help/development/ichiran.html
 
 #### エコリス地図タイル  
-- 提供機関：
+- 提供機関：株式会社エコリス
 - URL：http://map.ecoris.info/index.html
+
+#### OpenStreetMap
+- 提供機関：OpenStreetMap Foundation
+- URL：http://www.openstreetmap.org/
+
+#### USGS The National Map
+- アメリカ地質調査所：USGS
+- URL：http://viewer.nationalmap.gov/example/services/serviceList.html
+
