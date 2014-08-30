@@ -165,16 +165,13 @@
  * x. 出力する
  * xi. 地図帳機能を利用する
 
-### b. Webで公開する
+### b. [Webで公開する](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
 
- * i. [利用されやすい公開方法(github pagesを用いることにした)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
-  * i. [利用者を想定する(->githubアカウントの作成方法へ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
-  * ii. [ライセンスを決定する(->githubのセットアップを行う)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
-  * iii. [フォーマットを決定する(->webで地図を公開する)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
-  * iv. [フォーマットを決定する(->公開する際の留意点)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
-  
- * (Column) [GitHub.ioを公開サーバとして利用する](https://github.com/Arctictern265/QGIS_book/blob/95ee304355e790b47bf876279b3ee875c5012c00/5/5-3-column3.md)
- * iii. [ベクトルデータで公開する(->github pagesようにリポジトリをeditするへ変更)](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
+ * i. サーバーを用意する
+ * ii.  データを公開する
+ * iii. 公開する際の留意点
+
+ * (Column) [GitHub.Pages使用する](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2-column3.md)
  * (Column) [WMS/WFS](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2-column1.md)
  * (Column) [Mapbox](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2-column2.md)
 
