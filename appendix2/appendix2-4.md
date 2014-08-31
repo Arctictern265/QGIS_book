@@ -29,13 +29,13 @@
 
 #### 日本の地球化学図
 - 提供機関：独立行政法人　産業技術総合研究所
-- URL：https://gbank.gsj.jp/seamless/wmts/wmts.html
+- URL：https://www.gsj.jp/researches/geoinfo-service/
 - URL（WMS）: https://gbank.gsj.jp/ows/geochemmap
 
 #### 日本重力データベース
 - 提供機関：独立行政法人　産業技術総合研究所
-- URL：https://gbank.gsj.jp/seamless/wmts/wmts.html
-- URL（WMS）: https://gbank.gsj.jp/ows/geochemmap
+- URL：https://www.gsj.jp/researches/geoinfo-service/
+- URL（WMS）: https://gbank.gsj.jp/ows/gravdb
 
 #### 海底標高図
 - 提供機関：United Nations Environment Programme 
