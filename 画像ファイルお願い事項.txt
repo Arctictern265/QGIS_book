@@ -7,3 +7,4 @@
 4/4-4.md : http://resources.arcgis.com/ja/help/main/10.1/009z/GUID-A60FBF12-5DED-4AB2-9250-5A5BB636DE92-web.pngを参考にr.neighborsの説明画像を作り替えたい。
 4/4-4.md : http://resources.arcgis.com/ja/help/main/10.1/009z/GUID-2E38BCF6-2101-4BAF-A607-6F1CCC8DE5AF-web.gifを参考に日射量の説明画像を作り替えたい。
 2/2-2--column2.md : http://www.cookbook.hlurb.gov.ph/files/images/RasterVector.preview.jpg を参考に作り変えたい。ただ、もう少し文章に合わせた画像の方がよい。
+全体を通じて、ブラウザのキャプチャが頻繁に行われているが、閲覧しているページ部分(スタートアップメニューやブックマークリストを除く)のみにキャプチャーを切り直してほしい。
