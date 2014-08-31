@@ -1,69 +1,174 @@
-### データを準備する
-WEBで地理情報を公開するためには、GIS用のデータからWEB公開用のデータを作成しておく必要があります。ここでは、3種類の方法について紹介します。
+﻿##GitHub.Pagesを使用する
 
-#### GeoJSONに変換する
-ベクタデータは、GeoJSON形式に変換しておくとgithubで簡単にデータを公開、表示することができます。QGISを利用してShapefile形式からgeojson形式に変換してみましょう。
+基本的な技術スキルのある人を前提に話を進めます。
+本章ではGitHubでは標準機能としてGeoJSONが地図上に描画された状態で表示されることと、CGIやデータベースが使えないこと触れました。ですが、実はjavascript等を動作させたページは表示させることが可能です。
+せっかくの公開ページですので、データを表示する以外にも様々な追加機能を搭載したweb地図を公開したくなることでしょう。
+その際の使用方法に関して触れたいと思います。
 
-QGISを起動して、変換したいShapefileを読み込みます。読み込んだデータレイヤを右クリックして「名前をつけて保存」を選択します。
+Gitのインストールが必要になるので、行ってください。
 
-![名前をつけて保存を選択](img/5-2-0-1.png)
+LinuxのディストリビューションがDebian系の人
+```
+sudo apt-get install git
+```
 
-設定項目を次のように指定します。
+LinuxのディストリビューションがRedHat系の人  
+\# [root]になっている状態で
 
-- 形式　GeoJSON
-- 名前をつけて保存　出力するファイル名を指定します。
-- CRS　WGS84(EPSG:4326)
-- エンコーディング　UTF-8
+```
+yum apt-get install git
+```
+#### リポジトリのクローンを行う
 
-![geojsonへの変換設定](img/5-2-0-2.png)
+Gitコマンドを入力します。
+```
+git clone https://github.com/shoichi-qgisbook/shoichi-qgisbook.github.io
+```
+これでリポジトリがcloneされましたので、cloneしたリポジトリへ移動します。
 
-『OK』ボタンを押せばGeoJSON形式のファイルが作成されます。
-このファイルをgithubにアップロードすれば、データの公開と地図表示ができます。githubへの公開方法は5-◯を参照してください。
+![github_clone](./img/5-2-1-7.png)
 
-![githubでの表示例](img/5-2-0-3.png)
+リポジトリへ移動したら、空のindex.htmlファイルを作成します。次に、ファイルが作成されたことを確認します。
 
-#### WEB地図ファイルを作成する
-ベクタデータを公開する方法として、leafletやOpenLayersのような地図表示ライブラリを利用して、WEB地図を作成する方法があります。ここではqgis2leafというQGISのプラグインを利用して、leafletによるWEB地図ファイル（HTML形式）を作成してみましょう。
+```
+cd shoichi-qgisbook.github.io/
+touch index.html
+ls
+```
 
-QGISを起動して、メニューから【プラグイン】→【プラグインの管理とインストール】を選択します。[インストールされていない]タブから「gis2leaf」を選択し『プラグインをインストール』ボタンを押します。これでプラグインがインストールできました。
+![github_clone2](./img/5-2-1-8.png)
 
-![qgis2leafプラグインのインストール](img/5-2-0-4.png)
+空のindex.htmlの中身を作成します
+![github_index.html](./img/5-2-1-9.png)
 
-QGISに変換したいShapefileなどのベクタデータを読み込みます。データのスタイルを設定した後、メニューから【WEB】→【qgis2leaf】→【Exports a QGIS Project to a working leaflet webmap】を選択します。
+#### index.htmlの作成を行う
 
-![qgis2leafの選択](img/5-2-0-5.png)
+```
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Shoichi Otomo">
+	<head>
+	<title>qgis_book</title>
+	<style type="text/css">
+		#canvas {
+				width: 80%;
+				height: 80%;
+				margin: 0;
+		}
+		#canvas .olControlAttribution {
+				font-size: 13px;
+				bottom: 5px;
+		}
+		</style>
+		<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+		<script src="http://maps.google.com/maps/api/js?v=3&amp;sensor=false"></script>
+		<script type="text/javascript">
 
-qgis2leafのウインドウが開くので、各項目を設定します。『GetLayer』ボタンを押して、作成したいレイヤを選択します。「Frame width/height」で地図のサイズを指定し、「Basemap」から背景とする地図を選択します。「Output project folder」でWEB地図を出力するフォルダを指定します。
+			function init() {
+			var map;
+			//optionsの指定はマウスイベントの取得時に必要になる
+			var options = {
+				controls:[
+						new OpenLayers.Control.Navigation(),
+						new OpenLayers.Control.Attribution()
+						]
+						};
 
-![ggis2leafの設定](img/5-2-0-6.png)
+			map = new OpenLayers.Map("canvas", options);
+			//map = new OpenLayers.Map("canvas", {allOverlays: true});
+			map.addControl(new OpenLayers.Control.LayerSwitcher());
 
-『OK』ボタンを押すと指定したフォルダの中にWEB地図のデータセットが「export_2014_08_31_10_35_02」のようなフォルダ名で作成されます。その中のindex.htmlをブラウザで開くとデータを確認することができます。
+			var mapink = new OpenLayers.Layer.OSM();
+			map.addLayer(mapink);
 
-![WEB地図の表示](img/5-2-0-7.png)
+			var gsat = new OpenLayers.Layer.Google(
+			"Google Satellite",
+			{type: google.maps.MapTypeId.SATELLITE, numZoomLevel: 10}
+			)
+			map.addLayer(gsat);
 
-#### タイル地図を作成する
-GeoTIFFなどのラスタデータを公開するためにタイル地図を作成してみましょう。タイル地図を作成する方法としては、MapTiler（http://www.maptiler.org/）やTilemill（https://www.mapbox.com/tilemill/）などの専用のソフトウェアを利用する方法や、gdal2tilesやmapnikなどのコマンドプログラムを利用する方法、QGISのプラグインを利用する方法などがあります。ここでは、QTilesというQGISのプラグインを利用してタイル地図を作成してみましょう。
+			var ghyb = new OpenLayers.Layer.Google(
+			"Google Hybrid",
+			{type: google.maps.MapTypeId.HYBRID, numZoomLevels: 10, visibility: false}
+			)
+			map.addLayer(ghyb);
 
-まずは、タイル地図として公開するためのラスタデータを作成します。5-1章で説明した方法に従い出力したいデータをプリントコンポーザで整飾します。[コンポジション]タブの〈ワールドファイルオン〉にチェックを入れます。プリントコンポーザのメニューから『コンポーザ』→『画像としてエクスポート』を選択し、TIF画像のイメージとして書き出します。tif画像とともにtfwの拡張子のワールドファイルも出力されていることを確認してください。
+			//地図の中心に技術評論社を設定
+			var lonLat = new OpenLayers.LonLat(139.735646, 35.693697)
+			.transform(
+			new OpenLayers.Projection("EPSG:4326"),
+			new OpenLayers.Projection("EPSG:900913")
+			);
+			map.setCenter(lonLat, 10);
 
-![TIF画像の出力](img/5-2-0-8.png)
+			//技術評論社にmarkerを描画する
+			var markers = new OpenLayers.Layer.Markers("Markers");
+			map.addLayer(markers);
+			var marker = new OpenLayers.Marker(
+			new OpenLayers.LonLat(139.735646, 35.693697)
+			.transform(
+			new OpenLayers.Projection("EPSG:4326"),
+			new OpenLayers.Projection("EPSG:900913")
+			)
+			);
+			markers.addMarker(marker);
 
-次にQGISを起動して、出力したTIF画像を読み込みます。プリントコンポーザから出力されたTIF画像は、投影座標の値の定義はワールドファイルに記録されていますが、どのような投影法なのかといった空間参照の定義は記録されていません。そこでTIF画像の空間参照を定義しておきます。データレイヤを右クリックして「レイヤCRSを設定する」を選択し、TIF画像を作成した際の空間参照を指定します。
+				map.events.register("mousemove", map, onMouseMove);
+				map.events.register("zoomend", map, onZoomChanged);
+			}
+			function onMouseMove() {
+			var lonLat = this.getCenter().transform(
+			new OpenLayers.Projection("EPSG:900913"),
+			new OpenLayers.Projection("EPSG:4326")
+			);
+			document.getElementById("lat").firstChild.nodeValue = lonLat.lat;
+			document.getElementById("lon").firstChild.nodeValue = lonLat.lon;
+			}
+			function onZoomChanged() {
+			document.getElementById("zoom").firstChild.nodeValue = this.getZoom();
+			}
 
-![TIF画像の空間参照の設定](img/5-2-0-9.png)
+			</script>
+	</head>
+	<body onload="init();">
+		<div id="canvas">mapArea</div><br />
+			<div style="border:none; width:500px; padding:5px;">
+			Latitude：<div id="lat" style="display:inline">waiting</div><br />
+			Longitude：<div id="lon" style="display:inline">waiting</div><br />
+			ZoomLevel：<div id="zoom" style="display:inline">waiting</div>
+			</div>
+	</body>
+</html>
+```
+![github_index.html](./img/5-2-1-10.png)
 
-QTilesプラグインをインストールします。QGISのメニューから【プラグイン】→【プラグインの管理とインストール】を選択します。[設定]タブから〈実験的プラグインも表示する〉にチェックを入れ、『全リポジトリをリロードする』ボタンを押します。[インストールされていない]タブから「QTiles」を選択し『プラグインをインストール』ボタンを押します。これでプラグインがインストールできました。
+#### 公開するデータのアップロードを行う
 
-QGISのメニューから【プラグイン】→【QTiles】→【Qtiles】を選択します。QTilesの設定ウインドウが開くので各項目を設定します。〈Directory〉をチェックしタイル地図の出力先を指定します。「Tileset name」にタイル地図の名前を入力します。この名前がタイル地図が出力されるフォルダ名とWEB地図のファイル名になります。「Extent」でタイル地図の作成範囲を選択します。ここでは〈Full extent〉としておきます。「Zoom」で出力するタイル地図のズームレベルを指定します。ここでは「Minimum zoom」に{10}を「Maximum zoom」に{16}を入力しておきます。これによってズームレベル10〜16のタイル地図を作成することになります。ズームレベルが大きくなるにつれて出力されるタイル数が爆発的に増大し、処理に時間がかかるので注意してください。「パラメータ」の項目で〈Write Leaflet-based viewer〉にチェックをいれてブラウザでタイル地図を表示させるためのWEB地図ファイルも出力するように設定します。
+- Githubにpushします
 
-![QTilesプラグインの設定](img/5-2-0-10.png)
+```
+git add index.html
+git commit -m 'add index.html'
+git push
+```
+![github.io1](./img/5-2-1-11.png)
 
+GitHubのリポジトリを確認して、pushされていることを確認してください。
 
-『OK』ボタンを押すと指定したフォルダの中に「Tileset name」の名前でタイル地図のデータセットが作成されます。その中のhtmlファイルをブラウザで開くとデータを確認することができます。
+![github.io2](./img/5-2-1-12.png)
 
-![タイル地図をブラウザで表示](img/5-2-0-11.png)
+確認できたら、リポジトリネームの下にあるEditをクリックしてください。
 
-今回はあらかじめラスタ画像を準備してタイル地図を作成しましたが、QTilesプラグインは、ベクタデータを直接タイル地図として出力することもできます。ただ、現時点(2014年)でQTilesプラグインは実験的なプラグインとして公開されているので、残念ながら今のところあまり綺麗な出力結果は得られません。タイル地図に興味のある方は、MapTilerやgdal2tilesなど他の方法も試してみると良いでしょう。
+####データを公開する 
 
+WebSiteの欄に
+```
+http://username.github.io
+```
+と記入しsaveします。
 
+![github.io3](./img/5-2-1-13.png)
 
+[github.io_pub]のように表示されたのが、確認できます。
+
+![github.io_pub](./img/5-2-1-14.png)
