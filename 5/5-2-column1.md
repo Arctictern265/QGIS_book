@@ -2,19 +2,25 @@
 WMS(Web Map Service)とWFS(Web Feature Service)はOpen Geospatial Consortiumにより定められたインターネッ越に地図データをやり取りするための規約です。WMSでは地図画像データを、WFSは図形データを配信することが出来ます。  
 WMSを例にとると、まずクライアント側からどのような地図サービスを提供しているかサーバに対して問い合わせを行います。
 
+*GetCapabilitiesリクエスト例*
     http://サーバのURL?request=GetCapabilities&service=WMS&version=1.0.0
 
 サーバからはxmlにて提供しているサービスの情報が返答されます。次に取得した情報から判断して、適当な地図画像の取得を行います。
 
+*GetMapリクエスト例*
     http://サーバのURL?service=WMS&version=1.0.0&request=GetMap&取得範囲やレイヤの指定が並ぶ・・・
 
 QGISではWMSをサポートしていますので、公開されているWMSサーバのURLさえわかれば、サーバへ接続して画像を取得することができます。サーバ側になる多くのWebGISでもこの仕組みをサポートしています。  
 
 例として、基盤地図情報２万５千分の１WMS配信サービス（http://www.finds.jp/ws/kiban25000wms.cgi?）に以下のようなURIパラメータを付与してリクエストを送信してみます。
 
+*基盤地図情報２万５千分の１WMS配信サービスへのリクエスト例*
+
 	http://www.finds.jp/ws/kiban25000wms.cgi?request=GetCapabilities&service=WMS&version=1.0.0
 
 これに対するレスポンスは以下のようなXMLです。この中には利用可能なレイヤー、フォーマット等の全体の情報と、各レイヤーの範囲や空間参照系などの必要な情報が格納されています。クライアント側はこのXMLレスポンスを解析して、レイヤーリスト等の情報をユーザに提示することができます。
+
+*GetCapabilities返答例*
 
 	<!--  end of DOCTYPE declaration  -->
 	<WMT_MS_Capabilities version="1.0.0">

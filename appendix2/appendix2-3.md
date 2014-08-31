@@ -1,4 +1,4 @@
-## 国外のサイト
+﻿## 国外のサイト
 
 この項ではNatural EarthやLandsat衛星画像など、国外から入手可能なデータの中でも代表的なものを列挙します。
 
@@ -25,7 +25,7 @@ http://www.iscgm.org/
 ### NASA's Earth Observing System Data And Information System（EOSDIS)
 
 #### ・URL
-- URL：https://earthdata.nasa.gov/
+https://earthdata.nasa.gov/
 
 #### ・配布データ
 NASAの地球観測ミッションおよび地球科学データ。具体的には衛星や航空機などから得られた地球観測データと、それらのデータを解析して得られた高度解析データを配布しています。

@@ -38,10 +38,12 @@ ls
 
 ![github_clone2](./img/5-2-1-8.png)
 
+#### index.htmlの作成を行う
+
 空のindex.htmlの中身を作成します
 ![github_index.html](./img/5-2-1-9.png)
 
-#### index.htmlの作成を行う
+*JavaScriptを動作させたページ例*
 
 ```
 <html>
