@@ -167,9 +167,10 @@
 
 ### b. [Webで公開する](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2.md)
 
- * i. サーバーを用意する
- * ii.  データを公開する
- * iii. 公開する際の留意点
+ * i. データを準備する
+ * ii. サーバーを用意する
+ * iii.  データを公開する
+ * iv. 公開する際の留意点
 
  * (Column) [GitHub.Pages使用する](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2-column3.md)
  * (Column) [WMS/WFS](https://github.com/Arctictern265/QGIS_book/blob/master/5/5-2-column1.md)
