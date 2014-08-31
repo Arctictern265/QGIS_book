@@ -1,6 +1,6 @@
 ## (Column) OSGeo財団
 
-OSGeo財団（The Open Source Geospatial Foundation、 http://www.osgeo.org/home ）は、オープンソースのGISソフトウェアの開発、普及に関する財務的、組織的、法的な支援を行っている非営利の財団です。多くのオープンソースGISソフトウェアがOSGeo財団の参加で開発が進められており、上記のホームページにOSGeo財団が支援している各プロジェクトへのリンクがあります。また、OSGeo財団では毎年一度FOSS4G conferenceという世界カンファレンスを開催しており、各国からオープンソースGISに関わるデベロッパやユーザ等多くの人たちが参加しています。
+OSGeo財団（The Open Source Geospatial Foundation、 http://www.osgeo.org/home ）は、オープンソースのGISソフトウェアの開発、普及に関する財務的、組織的、法的な支援を行っている非営利の財団です。多くのオープンソースGISソフトウェアがOSGeo財団の傘下で開発が進められており、上記のホームページにOSGeo財団が支援している各プロジェクトへのリンクがあります。また、OSGeo財団では毎年一度FOSS4G conferenceという世界カンファレンスを開催しており、各国からオープンソースGISに関わるデベロッパやユーザ等多くの人たちが参加しています。
 
 OSGeo財団ではメーリングリストを開設しており、様々なアナウンスやディスカッションを行っています（ http://www.osgeo.org/content/faq/mailing_lists.html ）。メーリングリストにはだれでも参加することができます。
 
